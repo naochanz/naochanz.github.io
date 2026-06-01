@@ -3,20 +3,67 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>まなぷら</title>
+<title>まなぷら — 教育費プランナー</title>
 <style>
-  body { font-family: -apple-system, "Hiragino Sans", sans-serif; max-width: 720px; margin: 0 auto; padding: 40px 20px; color: #1a1a1a; line-height: 1.8; text-align: center; }
-  h1 { font-size: 28px; }
-  a { color: #2F6FB5; }
-  .links { margin-top: 32px; display: flex; gap: 24px; justify-content: center; font-size: 14px; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, "Hiragino Sans", sans-serif; color: #0B0F1A; line-height: 1.8; background: #F2F2F7; }
+  .hero { text-align: center; padding: 64px 20px 48px; background: linear-gradient(180deg, #E6EEF8 0%, #F2F2F7 100%); }
+  .hero h1 { font-size: 32px; letter-spacing: -0.02em; }
+  .hero h1 span { color: #2F6FB5; }
+  .hero p { color: #5C6B82; margin-top: 12px; font-size: 16px; }
+  .badge { display: inline-block; background: #E6EEF8; color: #2F6FB5; font-size: 12px; font-weight: 600; padding: 4px 12px; border-radius: 99px; margin-bottom: 16px; }
+  .wrap { max-width: 640px; margin: 0 auto; padding: 0 20px; }
+  .features { padding: 48px 20px; }
+  .feature { background: #fff; border: 1px solid rgba(60,60,67,0.14); border-radius: 14px; padding: 24px; margin-bottom: 12px; }
+  .feature h3 { font-size: 16px; margin-bottom: 6px; }
+  .feature h3 .tag { font-size: 11px; font-weight: 600; padding: 2px 8px; border-radius: 4px; margin-left: 8px; vertical-align: middle; }
+  .tag-free { background: #E6EEF8; color: #2F6FB5; }
+  .tag-premium { background: #0B0F1A; color: #fff; }
+  .feature p { font-size: 14px; color: #5C6B82; }
+  .cta { text-align: center; padding: 48px 20px; }
+  .cta p { color: #5C6B82; font-size: 14px; margin-bottom: 20px; }
+  .btn { display: inline-block; background: linear-gradient(180deg, #3A7CC4, #2F6FB5); color: #fff; padding: 14px 32px; border-radius: 12px; font-weight: 600; font-size: 15px; text-decoration: none; }
+  footer { text-align: center; padding: 32px 20px; font-size: 12px; color: #8C8C8C; border-top: 1px solid rgba(60,60,67,0.14); }
+  footer a { color: #5C6B82; margin: 0 12px; }
 </style>
 </head>
 <body>
-<h1>🌱 まなぷら</h1>
-<p>教育費の不安を、家族の安心に。</p>
-<div class="links">
+
+<div class="hero">
+  <span class="badge">iOS アプリ</span>
+  <h1>教育費の不安を、<br><span>家族の安心</span>に。</h1>
+  <p>幼稚園から大学までの教育費を見える化し、<br>貯蓄計画まで一貫してサポート。</p>
+</div>
+
+<div class="wrap features">
+  <div class="feature">
+    <h3>📊 教育費シミュレーション <span class="tag tag-free">無料</span></h3>
+    <p>進路パターンに合わせて教育費総額を自動計算。文部科学省の最新データに基づく。</p>
+  </div>
+  <div class="feature">
+    <h3>💰 貯蓄プラン＆トラッキング <span class="tag tag-free">無料</span></h3>
+    <p>銀行・NISA・保険の配分をカスタマイズ。毎月の記録で進捗を可視化。</p>
+  </div>
+  <div class="feature">
+    <h3>🔀 What-if シナリオ <span class="tag tag-premium">Premium</span></h3>
+    <p>進路を変えた場合の費用差を並べて比較。</p>
+  </div>
+  <div class="feature">
+    <h3>👨‍👩‍👧‍👦 複数のお子さんに対応 <span class="tag tag-premium">Premium</span></h3>
+    <p>きょうだい全員の教育費を合算管理。</p>
+  </div>
+</div>
+
+<div class="cta">
+  <p>プレミアム機能は買い切り ¥980。サブスクではありません。</p>
+</div>
+
+<footer>
   <a href="privacy.html">プライバシーポリシー</a>
   <a href="terms.html">利用規約</a>
-</div>
+  <a href="mailto:support@manapura.com">お問い合わせ</a>
+  <br><br>© 2026 ManaPlura
+</footer>
+
 </body>
 </html>
